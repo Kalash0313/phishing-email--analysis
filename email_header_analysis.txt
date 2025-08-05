@@ -1,0 +1,10 @@
+Return-Path: <alerts@secure-bank.com>
+Received: from unknown (unknown [45.77.23.11])
+    by mail.example.com (Postfix) with ESMTPS id 7F8E124C56
+    for <victim@example.com>; Tue, 5 Aug 2025 14:02:01 +0530 (IST)
+Received-SPF: Fail (mail.example.com: domain of secure-bank.com does not designate 45.77.23.11 as permitted sender)
+Authentication-Results: spf=fail smtp.mailfrom=alerts@secure-bank.com
+Message-ID: <20250805140123.7F8E124C56@mail.example.com>
+Subject: Urgent: Unusual Login Attempt Detected
+From: Secure Bank <alerts@secure-bank.com>
+To: victim@example.com
